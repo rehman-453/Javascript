@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Question No 9</title>
+    <style>
+        /* Style the top navigation bar */
+        .navbar {
+            overflow: hidden;
+            /* Hide overflow */
+            background-color: rgb(253, 253, 253);
+            /* Dark background color */
+            border: rgb(15, 13, 13);
+        }
+
+        /* Style the navigation bar links */
+        .navbar a {
+            float: left;
+
+            /* Make sure that the links stay side-by-side */
+            display: block;
+
+            /* Change the display to block, for responsive reasons (see below) */
+            color: rgb(15, 13, 13);
+            /* White text color */
+            /* text-align: center; */
+            /* Center the text */
+            padding: 14px 20px;
+            /* Add some padding */
+            /* text-decoration: none; */
+            /* Remove underline */
+        }
+
+        .img-fluid {
+            width: 46px;
+            height: 46px;
+            border-radius: 50%;
+            overflow: hidden;
+            margin-top: -6px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="navbar">
+        <a class="navbar-brand" href="/">
+            <div class="logo-image">
+                <img src="image/i1.jpg" class="img-fluid">
+            </div>
+        </a>
+
+
+        <a href="#" onclick="home()">Home</a>
+        <a href="#" onclick="products()">Products</a>
+        <a href="#" onclick="about()">About</a>
+        <a href="#" onclick="contact()">Contact Us</a>
+    </div>
+    <h2 id="heading"></h2>
+    <p id="paragraph"></p>
+
+</body>
+<script src="app.js"></script>
+
+</html>
